@@ -1,0 +1,43 @@
+
+.global-header-section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.global-header-container {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    z-index: 10;
+}
+
+.global-header-logo {
+    font-size: 36px;
+    color: #363636;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1000px) {
+    .global-header-logo {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .global-header-logo {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .global-header-logo {
+        font-size: 24px;
+    }
+}

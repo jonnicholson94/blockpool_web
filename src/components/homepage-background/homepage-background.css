@@ -1,0 +1,20 @@
+
+.homepage-background-top-div {
+    height: 50vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #DF7861;
+    z-index: 1;
+}
+
+.homepage-background-bottom-div {
+    height: 50vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #D4E2D4;
+    z-index: 2;
+}

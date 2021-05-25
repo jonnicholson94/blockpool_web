@@ -1,0 +1,54 @@
+
+.table-cell-container {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.table-cell-asset-details, .table-cell-price-details, .table-cell-price-change, .table-cell-market-cap {
+    height: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    flex-shrink: 0;
+    border-top: 1px solid #e2e2e2;
+    
+}
+
+.table-cell-asset-details, .table-cell-market-cap {
+    width: 300px;
+}
+
+.table-cell-price-details, .table-cell-price-change {
+    width: 175px;
+}
+
+.table-cell-image {
+    height: auto;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.table-cell-asset-details p {
+    font-size: 18px;
+}
+
+.table-cell-price-details p, .table-cell-market-cap p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.table-cell-price-change {
+    font-size: 14px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
